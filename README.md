@@ -68,13 +68,12 @@ python openPIV_codeExammple.py <parameterFile>
 parameterFile: Path to the YAML file containing PIV processing parameters.
 
 ## Example of parameter file:
-
- -input_folder: "./input_images/"
- -output_folder: "./output_results/"
- -extension: ".png"
--isPostProcess: True
--threshold_sigNoise: 1.2
--kernel_size: 5
+- input_folder: "./input_images/"
+- output_folder: "./output_results/"
+- extension: ".png"
+- isPostProcess: True
+- threshold_sigNoise: 1.2
+- kernel_size: 5
 -isScaling: True
 -scaling_factor: 96.52
 -dtPIV: 1
