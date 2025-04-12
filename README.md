@@ -24,28 +24,28 @@ For more information visit the original repository: [openPIV](https://github.com
 """
 Script to process Particle Image Velocimetry (PIV) images.
 
-Usage:
-    python openPIV_codeExammple.py <parameterFile>
+* Usage:
+   _python openPIV_codeExammple.py parameterFile_
 
-Arguments:
+* Arguments:
     parameterFile (str): Path to the YAML file containing PIV processing parameters.
 
-Description:
+* Description:
     This script processes PIV images using the `openpiv` library. It reads parameters 
     from a YAML configuration file, performs PIV analysis on pairs of images, and 
     optionally applies post-processing, scaling, and coordinate transformations. 
     The results are saved as text files in the specified output directory.
 
-Steps:
+* Steps:
     1. Prepare a YAML file with the required parameters (e.g., input/output folders, 
        PIV settings, post-processing options).
     2. Place the images to be processed in the input folder specified in the YAML file.
     3. Run the script with the path to the YAML file as an argument.
 
-Example:
+* Example:
     python openPIV_codeExammple.py parameters.yaml
 
-YAML File Example:
+* YAML File Example:
     input_folder: "./input_images/"
     output_folder: "./output_results/"
     extension: ".png"
@@ -61,11 +61,11 @@ YAML File Example:
     search_area_sizePIV: 64
     overlapPIV: 24
 
-Requirements:
+* Requirements:
     - Python 3.x
     - Libraries: numpy, openpiv, PIL, PyYAML
 
-Output:
+* Output:
     - Processed PIV vector fields saved in the output folder as text files.
 """
 
