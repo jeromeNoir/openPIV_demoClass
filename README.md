@@ -1,5 +1,7 @@
 # openPIV_demoClass
 
+For more information visit the original repository: [openPIV](https://github.com/jeromeNoir?tab=repositories#:~:text=OpenPIV/openpiv%2Dpython)
+
 ## To Install openPIV
 * create a environment:
   * Best: Use the Anaconda Navigator
@@ -8,13 +10,15 @@
 * activate the environment:
     conda activate openpiv
 
-Install openPIV:
+## Install openPIV:
 
-pip install openpiv
-Additional installs:
-ipykernel: pip install ipykernel
-siphash24: pip install siphash24
-openCV (recommended for video editing): pip install opencv-python
+ pip install openpiv
+
+## Additional installs:
+
+* ipykernel: pip install ipykernel
+* siphash24: pip install siphash24
+* openCV (recommended for video editing): pip install opencv-python
 
 
 
