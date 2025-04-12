@@ -6,17 +6,17 @@ For more information visit the original repository: [openPIV](https://github.com
 * create a environment:
   * Best: Use the Anaconda Navigator
   * Alternative:
-    conda create --name openpiv python=3.11.11
+    _conda create --name openpiv python=3.11.11_
 * activate the environment:
-    conda activate openpiv
+    _conda activate openpiv_
 
-* Install openPIV: pip install openpiv
+* Install openPIV: _pip install openpiv_
 
 ## Additional installs:
 
-* ipykernel: pip install ipykernel
-* siphash24: pip install siphash24
-* openCV (recommended for video editing): pip install opencv-python
+* ipykernel: _pip install ipykernel_
+* siphash24: _pip install siphash24_
+* openCV (recommended for video editing): _pip install opencv-python_
 
 
 
