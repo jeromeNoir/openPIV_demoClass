@@ -1,6 +1,6 @@
 # openPIV_demoClass
 
-For more information visit the original repository: [openPIV](https://github.com/jeromeNoir?tab=repositories#:~:text=OpenPIV/openpiv%2Dpython)
+For more information visit the original repository: [openPIV]([https://github.com/jeromeNoir?tab=repositories#:~:text=OpenPIV/openpiv%2Dpython](https://github.com/OpenPIV/openpiv-python))
 
 ## To Install openPIV
 * create a environment:
