@@ -74,14 +74,14 @@ parameterFile: Path to the YAML file containing PIV processing parameters.
 - isPostProcess: True
 - threshold_sigNoise: 1.2
 - kernel_size: 5
--isScaling: True
--scaling_factor: 96.52
--dtPIV: 1
--isProcessAll: True
--step: 1
--window_sizePIV: 48
--search_area_sizePIV: 64
--overlapPIV: 24
+- isScaling: True
+- scaling_factor: 96.52
+- dtPIV: 1
+- isProcessAll: True
+- step: 1
+- window_sizePIV: 48
+- search_area_sizePIV: 64
+- overlapPIV: 24
 
 ### Output
 Processed PIV vector fields saved as text files in the specified output folder.
