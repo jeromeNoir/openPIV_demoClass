@@ -69,9 +69,9 @@ parameterFile: Path to the YAML file containing PIV processing parameters.
 
 ## Example of parameter file:
 
--input_folder: "./input_images/"
--output_folder: "./output_results/"
--extension: ".png"
+ -input_folder: "./input_images/"
+ -output_folder: "./output_results/"
+ -extension: ".png"
 -isPostProcess: True
 -threshold_sigNoise: 1.2
 -kernel_size: 5
