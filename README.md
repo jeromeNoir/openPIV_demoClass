@@ -1,6 +1,6 @@
 # openPIV_demoClass
 
-For more information visit the original repository: [openPIV](https://github.com/OpenPIV/openpiv-python)
+For more information about openPIV visit the original repository: [openPIV](https://github.com/OpenPIV/openpiv-python)
 
 ## To Install openPIV
 * create a environment:
@@ -38,6 +38,23 @@ Before using the scripts, ensure you have the following installed:
   - `openpiv`
   - `Pillow`
   - `PyYAML`
+ 
+### To Install openPIV
+* create a environment:
+  * Best: Use the Anaconda Navigator
+  * Alternative:
+    _conda create --name openpiv python=3.11.11_
+* activate the environment:
+    _conda activate openpiv_
+
+* Install openPIV: _pip install openpiv_
+
+### Additional installs:
+
+* ipykernel: _pip install ipykernel_
+* siphash24: _pip install siphash24_
+* openCV (recommended for video editing): _pip install opencv-python_
+
 
 ## openPIV_codeExammple.py :
 ### Description
@@ -52,20 +69,20 @@ parameterFile: Path to the YAML file containing PIV processing parameters.
 
 ## Example of parameter file:
 
-input_folder: "./input_images/"
-output_folder: "./output_results/"
-extension: ".png"
-isPostProcess: True
-threshold_sigNoise: 1.2
-kernel_size: 5
-isScaling: True
-scaling_factor: 96.52
-dtPIV: 1
-isProcessAll: True
-step: 1
-window_sizePIV: 48
-search_area_sizePIV: 64
-overlapPIV: 24
+-input_folder: "./input_images/"
+-output_folder: "./output_results/"
+-extension: ".png"
+-isPostProcess: True
+-threshold_sigNoise: 1.2
+-kernel_size: 5
+-isScaling: True
+-scaling_factor: 96.52
+-dtPIV: 1
+-isProcessAll: True
+-step: 1
+-window_sizePIV: 48
+-search_area_sizePIV: 64
+-overlapPIV: 24
 
 ### Output
 Processed PIV vector fields saved as text files in the specified output folder.
