@@ -1,0 +1,24 @@
+# Path to the folder containing the images and the results
+input_folder: './Example/Images/'
+output_folder: './Example/Results/'
+extension: 'png'
+
+# Parameters for the PIV analysis
+isProcessAll: true
+step: 2
+
+window_sizePIV: 32
+search_area_sizePIV: 64
+overlapPIV: 16
+
+#Post-Processing parameters
+isPostProcess: true
+threshold_sigNoise: 1.2
+kernel_size: 5
+
+#scaling parameters
+isScaling: False
+scaling_factor: 96.52 #microns/pixel
+dtPIV: 1 #time step in seconds between frames
+
+ 
