@@ -49,7 +49,7 @@ Before using the scripts, ensure you have the following installed:
 
 * Install openPIV: _pip install openpiv_
 
-### Additional installs:
+### Additional installs (not always required, depends on your OS):
 
 * ipykernel: _pip install ipykernel_
 * siphash24: _pip install siphash24_
