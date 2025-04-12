@@ -104,7 +104,7 @@ python plot_PIVfileds.py <fileName>
 * --scaling_factor: Scaling factor for the image (default: 1). 
 * --scale: Arrow length in the vector field (default: 50).
 * --width: Thickness of the arrows (default: 0.0035).
-* --image_name: Path to the image to overlay with PIV field.
+* --image_name: Path to the image to overlay with PIV field.(if not specified, noe image overlay)
 
 example: 
 python plot_PIVfileds.py vectors.txt --scaling_factor 2 --scale 75 --width 0.004 --on_img True --image_name background.png
