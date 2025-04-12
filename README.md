@@ -10,9 +10,7 @@ For more information visit the original repository: [openPIV](https://github.com
 * activate the environment:
     conda activate openpiv
 
-* Install openPIV:
-
- pip install openpiv
+* Install openPIV: pip install openpiv
 
 ## Additional installs:
 
